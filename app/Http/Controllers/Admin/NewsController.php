@@ -95,6 +95,8 @@ class NewsController extends Controller
       // 編集履歴も更新
       $history = new History;
       $history->news_id = $news->id;
+      // ProfileモデルのIDは不要だが必須入力のため0とする
+      $history->profile_id = 0;
       $history->edited_at = Carbon::now();
       $history->save();
 

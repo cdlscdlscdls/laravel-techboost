@@ -17,6 +17,5 @@ class News extends Model
   public function histories()
   {
     return $this->hasMany('App\History');
-
   }
 }
