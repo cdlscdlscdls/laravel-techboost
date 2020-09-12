@@ -16,6 +16,18 @@
 
                     You are logged in!
                 </div>
+                <div class="card-body">
+                  <a href="/news">News</a>
+                </div>
+                <div class="card-body">
+                  <a href="/profile">Profile</a>
+                </div>
+                <div class="card-body">
+                  <a href="/admin/news">Admin News</a>
+                </div>
+                <div class="card-body">
+                  <a href="/admin/profile">Admin Profile</a>
+                </div>
             </div>
         </div>
     </div>

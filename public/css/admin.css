@@ -39,3 +39,14 @@ body {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
+.register-box {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.register-header {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.register-body {
+  background-color: rgba(0, 0, 0, 0.25);
+}
